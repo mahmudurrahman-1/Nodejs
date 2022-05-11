@@ -1,0 +1,15 @@
+What is Nodejs?
+It is a javascript runtime. It is just a container like an environment in which
+a program is written in javascript can be executed but outside of any browser whatsoever. The V8 engine developed by google executes the code. 
+
+Why Nodejs is so fast and highly scaleable ?
+It is single threded based on event driven, non blocking inputout model. Which make it lightweight and efficient. 
+
+Synchronous way?
+Each statement is basically processed one after another, line by line.
+
+Why it is called blocking code?
+Certain operation is done after the one before has finished.
+
+what is the solution of the synchronous blocking?
+The solution is to write code asynchronously.
